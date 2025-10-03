@@ -1,0 +1,27 @@
+body{
+	background-color: Ivory;
+}
+
+/* Source: https://www.w3schools.com/css/css_navbar_horizontal.asp */
+			
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: BurlyWood;
+	display: flex;
+	justify-content: center;
+	border: 3px solid;
+}
+			
+ul li a {
+	display: block;
+	color: black;
+	padding: 18px 16px;
+	text-decoration: none;
+}
+			
+ul li a:hover {
+	background-color: saddlebrown;
+	color: white;
+}
