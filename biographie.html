@@ -5,6 +5,24 @@
 		<meta charset="UTF-8">
 		<title>Biographie</title>
 		<link rel="stylesheet" href="styles.css">
+		
+		<style>
+			/* Source: https://www.w3schools.com/howto/howto_css_center-list.asp */
+			
+			div.contenant {
+				width: 50%;
+				border: solid black;
+			}
+			
+			ul.centrer {
+				text-align: left;
+			}
+			
+			hr {
+				border: 2px solid black;
+				width: 95%;
+			}
+		</style>
 	</head>
 	
 	<body>
@@ -16,7 +34,38 @@
 		</ul>
 		
 		<center>
-			<h1>Voici ma biographie</h1>
+			<h1>Bonjour, je suis (pseudo nom).</h1>
+			
+			<h3>Image qui me représente:</h3>
+			
+			<table>
+				<tr>
+					<td style="width: 30%"><img src="https://upload.wikimedia.org/wikipedia/commons/f/f8/Question_mark_alternate.svg" width="80%"/></td>
+					<td><center><p>
+						Explication de image qui me représente:
+						<br>
+						blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+						<br>
+						blah blah blah blah blah blah blah blah blah blah blah blah blah blah blahblah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+						<br>
+						Salut oui je dit des mots
+					</p></center></td>
+				</tr>
+			</table>
+			
+			<br>
+			<hr>
+			<br>
+			
+			<div class="contenant">	
+				<center><h3>Choses que j'aime:</h3></center>
+				<ul class="centrer">
+					<li>chose</li>
+					<li>chose</li>
+					<li>chose</li>
+					<li>chose</li>
+				</ul>
+			</div>
 		</center>
 	</body>
 </html>

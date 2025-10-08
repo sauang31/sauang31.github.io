@@ -6,6 +6,11 @@ h1 {
 	font-weight: bold;
 	text-decoration: underline;
 }
+table {
+	table-layout: fixed;
+	width: 80%;
+}
+
 
 /* Source: https://www.w3schools.com/css/css_navbar_horizontal.asp */
 
