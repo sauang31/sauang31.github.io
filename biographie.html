@@ -7,6 +7,7 @@
 		<link rel="stylesheet" href="styles.css">
 		
 		<style>
+			
 			/* Source: https://www.w3schools.com/howto/howto_css_center-list.asp */
 			
 			div.contenant {
@@ -22,10 +23,38 @@
 				border: 2px solid black;
 				width: 95%;
 			}
+			
+			/* Source: https://www.w3schools.com/css/css_navbar_vertical.asp */
+
+			.vbarre {
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+				width: 20%;
+				background-color: burlywood;
+				height: 100%;
+				position: fixed;
+				top: 10px;
+				overflow: auto;
+			}
+
+			.vbarrelien {
+				display: block;
+				color: black;
+				padding: 8px 16px;
+				text-decoration: none;
+			}
+
+			.vbarrelien:hover {
+				background-color: saddlebrown;
+				color: white;
+			}
+			
 		</style>
 	</head>
 	
 	<body>
+		
 		<ul class="hbarre">
 			<li><a href="index.html" class="hbarrelien">Acceuil</a></li>
 			<li><a href="poeme.html" class="hbarrelien">Poème</a></li>
@@ -33,9 +62,17 @@
 			<li><a href="biographie.html" class="hbarrelien">Biographie</a></li>
 		</ul>
 		
-		<center>
-			<h1>Bonjour, je suis (pseudo nom).</h1>
-			
+		<br>
+		
+		<ul class="vbarre">
+			<li><a href="index.html" class="vbarrelien">Acceuil</a></li>
+			<li><a href="poeme.html" class="vbarrelien">Poème</a></li>
+			<li><a href="voyage.html" class="vbarrelien">Voyage</a></li>
+			<li><a href="biographie.html" class="vbarrelien">Biographie</a></li>
+		</ul>
+
+		<center style="padding: 0 0 0 20%">
+			<h1>Bonjour, je suis LeGrandPieuvre.</h1>
 			<h3>Image qui me représente:</h3>
 			
 			<table>
@@ -44,11 +81,9 @@
 					<td><center><p>
 						Explication de image qui me représente:
 						<br>
-						blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+						L’image à gauche, celle d’une pelouche de pieuvre de couleur arc-en-ciel, me représente.
 						<br>
-						blah blah blah blah blah blah blah blah blah blah blah blah blah blah blahblah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
-						<br>
-						Salut oui je dit des mots
+						J’ai créée cette pelouche par moi même avec le crochet, c’est un de mes intérêts. En plus, j’adore les pieuvres, et donc cet image me représente beaucoup.
 					</p></center></td>
 				</tr>
 			</table>
@@ -60,12 +95,65 @@
 			<div class="contenant">	
 				<center><h3>Choses que j'aime:</h3></center>
 				<ul class="centrer">
-					<li>chose</li>
-					<li>chose</li>
-					<li>chose</li>
-					<li>chose</li>
+					<li>Le crochet</li>
+					<li>Le théâtre</li>
+					<li>Les pieuvres</li>
+					<li>L'art</li>
+					<li>La programmation</li>
 				</ul>
 			</div>
+				
+			<br>
+			<br>
+			
+			<div class="contenant">	
+				<center>
+					<h3>Fait intéressant:</h3>
+					<p>Mon met préféré est <u>un spring roll.</u><p>
+				</center>
+			</div>
+						
+			<br>
+			<hr>
+			<br>
+						
+			<h3>Voici quelques liens que j'aime:</h3>
+			<p><a href="https://www.edclub.com/sportal/" target="_blank">https://www.edclub.com/sportal/</a> (dactylographie)</p>
+			<p><a href="https://en.wikipedia.org/wiki/Main_Page" target="_blank">https://en.wikipedia.org/wiki/Main_Page</a> (informations intéressantes)</p>
+			<p><a href="https://www.boredbutton.com/" target="_blank">https://www.boredbutton.com/</a> (petits jeux)</p>
+			
+			<br>
+			<hr>
+			<br>
+						
+			<h3>Tableau de mes compétances technologiques:</h3>
+						
+			<table border="2">
+				<tr>
+					<th>Compétances technologiques:</th>
+					<th>Mon niveau:</th>
+				</tr>
+				<tr>
+					<td>Programmation HTML</td>
+					<td>Débutant</td>
+				</tr>
+				<tr>
+					<td>Programmation CSS</td>
+					<td>Débutant</td>
+				</tr>
+				<tr>
+					<td>Programmation dans le programme <i>Scratch</i></td>
+					<td>Expert</td>
+				</tr>
+				<tr>
+					<td>Navigation de Google Docs</td>
+					<td>Maître</td>
+				</tr>
+				<tr>
+					<td>Navigation de Google Sheets</td>
+					<td>Compétant</td>
+				</tr>
+			</table>
 		</center>
 	</body>
 </html>
