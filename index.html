@@ -12,10 +12,33 @@
 		<style>
 			
 			div {
-			border: 3px solid #512e14;
-			width: 75%;
-			background-color: #f3ebd2;
-			padding: 10px;
+				border: 3px solid #512e14;
+				width: 75%;
+				background-color: #f3ebd2;
+				padding: 10px;
+			}
+			
+			/* Source: https://www.w3schools.com/css/css_navbar_horizontal.asp */
+
+			.bouton {
+				border: 3px solid #512e14;
+				width: 75%;
+				list-style-type: none;
+				margin: 0;
+				padding: 20px;
+				background-color: #f3ebd2;
+				display: flex;
+				justify-content: center;
+			}
+						
+			.boutonlien {
+				display: block;
+				color: black;
+				text-decoration: none;
+			}
+
+			.bouton:hover {
+				background-color: #d8c8ae;
 			}
 			
 		</style>
@@ -33,26 +56,26 @@
 		<center>
 			<h1>ACCEUIL</h1>
 			
-			<p>Bienvenu à mon site web! Pour explorer les pages, cliquez sur les boutons sur le menu en haut.</p>
+			<p>Bienvenue à mon site web! Pour explorer les pages, cliquez sur les boutons sur le menu en haut.</p>
 		
 			<h3>Ce que vous allez trouver sur mon site web:</h3>
 			
 			<!-- boîtes contenant information sur les autres pages -->
-			<div>
-				<p><u><b>1)</b>  Poème:</u> le poème « The Road Not Taken » par Robert Frost</p>
-			</div>
+			<a href="poeme.html" class="boutonlien"><ul class="bouton">
+				<li><u><b>1)</b>  Poème:</u> le poème « The Road Not Taken » par Robert Frost</li>
+			</ul></a>
 		
 			<br>
 			
-			<div>
-				<p><u><b>2)</b> Voyage:</u> des informations à propos de Paris</p>
-			</div>
+			<a href="voyage.html" class="boutonlien"><ul class="bouton">
+				<li><u><b>2)</b> Voyage:</u> des informations à propos de Paris</li>
+			</ul></a>
 			
 			<br>
 			
-			<div>
-				<p><u><b>3)</b> Biographie:</u> quelques choses à propos de moi</p>
-			</div>
+			<a href="biographie.html" class="boutonlien"><ul class="bouton">
+				<li><u><b>3)</b> Biographie:</u> des informations à propos de moi</li>
+			</ul></a>
 		</center>
 	</body>
 </html>
