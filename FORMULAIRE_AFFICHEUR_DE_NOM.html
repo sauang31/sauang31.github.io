@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Afficheur de nom</title>
+    </head>
+    <body>
+        <form>
+            <a href="index.html">Retour vers l'accueil</a>  
+            <h1>Formulaire afficheur de nom</h1>
+
+            <label for="txtPrenom">Prénom:</label><br>
+            <input type="text" id="txtPrenom">
+
+            <br><br>
+
+            <label for="txtNomMilieu">Nom du milieu:</label><br>
+            <input type="text" id="txtNomMilieu">
+
+            <br><br>
+
+            <label for="txtDernierNom">Dernier nom:</label><br>
+            <input type="text" id="txtDernierNom">
+
+            <br><br>
+
+            <input type="button" id="btnSoumet" onclick="afficheurDeNom()" value="Soumettre">
+
+            <div id="divReponse">
+            </div>
+
+            <script src="script/afficheurDeNom.js"></script>
+        </form>
+    </body>
+</html>
