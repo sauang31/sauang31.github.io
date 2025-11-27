@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="utf-8">
+      <title>Inscription</title>
+    </head>
+    <body>
+      <!-- Calculatrice Modulo -->
+        <form>
+            <h1>Calculatrice Modulo</h1>
+            
+            <label for="nbre1">Nombre 1:</label><br>
+            <input type="number" id="nbre1">
+            
+            <br><br>
+            <!-- AJOUTE NAME -->
+            <label for="radioOp">Opération:</label><br>
+            <input type="radio" name="operation" id="radioOp" value="+" checked>Addition (+)<br>
+            <input type="radio" name="operation" id="radioOp" value="-">Soustraction (-)<br>
+            <input type="radio" name="operation" id="radioOp" value="*">Multiplication (*)<br>
+            <input type="radio" name="operation" id="radioOp" value="/">Division (/)<br>
+            <input type="radio" name="operation" id="radioOp" value="%">Modulo (%)
+
+            <br>
+            <br>
+        
+            <label for="nbre2">Nombre 2:</label><br>
+            <input type="number" id="nbre2">
+            
+            <br><br>
+            
+            <!-- bouton pour soumettre le formulaire -->
+            <input type="button" id="btnSoumet" onclick="calculeModulo()"  value="Soumettre">
+            
+            <!-- Création d'une section pour l'affichage des résultats -->
+            <div id="divAffiche">
+            </div>
+
+            <script src="scripts/calculatrice.js"></script>
+        </form>
+    </body>
+</html>
+
