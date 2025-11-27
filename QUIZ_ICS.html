@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Quiz</title>
+    </head>
+
+    <body>
+        <form>
+            <a href="index.html">Retour vers l'accueil</a>
+            <h1>Quiz sur le cours ICS</h1>
+
+            <label for="q1">Question 1: Quel est le résultat de console.log("5" + 2 + 7)?</label><br>
+            <input type="radio" name="question1" id="q1" value="1" checked>527<br>
+            <input type="radio" name="question1" id="q1" value="2">14<br>
+            <input type="radio" name="question1" id="q1" value="3">77<br>
+            <input type="radio" name="question1" id="q1" value="4">59
+
+            <br><br>
+
+            <input type="button" id="btnSoumet" onclick="correctionReponses()" value="Soumettre le quiz">
+
+            <div id="divReponse">
+            </div>
+
+            <script src="script/quizICS.js"></script>
+        </form>
+    </body>
+</html>
